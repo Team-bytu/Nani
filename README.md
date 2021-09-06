@@ -1,5 +1,5 @@
 <div align="center">
-  <img border-radius: 15px src="https://raw.githubusercontent.com/Axel-bytu/Batrol/main/media/broz.jpg" width="275" height="275"/>
+  <img border-radius: 15px src="https://raw.githubusercontent.com/Team-bytu/Nani/main/media/nani.jpg" width="275" height="275"/>
   <p align="center">
 <a href="#"><img title="BATROL" src="https://img.shields.io/badge/Batrol-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
@@ -8,7 +8,7 @@
 </p>
 </div>
 <p align="center">
-Project created by <a href="https://github.com/farhan-dqz">Axel-bytu</a> to make it public
+Project created by <a href="https://github.com/farhan-dqz">Team-bytu</a> to make it public
     <br>
        | © |
         Reserved |
@@ -19,12 +19,12 @@ Project created by <a href="https://github.com/farhan-dqz">Axel-bytu</a> to make
 
   <p align="center">
   <a href="httsp://github.com/farhan-dqz/JulieMwol">
-    <img src="https://img.shields.io/github/repo-size/Axel-bytu/Batrol?color=green&label=Repo%20total%20size&style=plastic">
+    <img src="https://img.shields.io/github/repo-size/Team-bytu/Nani?color=green&label=Repo%20total%20size&style=plastic">
 <p align="center">
-<a href="https://github.com/Axel-bytu/followers"><img title="Followers" src="https://img.shields.io/github/followers/Axel-bytu?color=blue&style=flat-square"></a>
-<a href="https://github.com/Axel-bytu//stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Axel-bytu/Batrol?color=blue&style=flat-square"></a>
-<a href="https://github.com/Axel-bytu/Batrol/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Axel-bytu/Batrol?color=blue&style=flat-square"></a>
-<a href="https://github.com/Axel-bytu/Batrol/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Axel-bytu/Batrol?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://github.com/Team-bytu/followers"><img title="Followers" src="https://img.shields.io/github/followers/Team-bytu?color=blue&style=flat-square"></a>
+<a href="https://github.com/Team-bytu/Nani/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Team-bytu/Nani?color=blue&style=flat-square"></a>
+<a href="https://github.com/Team-bytu/Nani/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Team-bytu/Nani?color=blue&style=flat-square"></a>
+<a href="https://github.com/Team-bytu/Nani/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Team-bytu/Nani?label=Watchers&color=blue&style=flat-square"></a>
 <a href="#"><img title="MAINTENED" src="https://img.shields.io/badge/UNMAINTENED-YES-blue.svg"</a>
 </p>
 
@@ -46,8 +46,8 @@ apt install git -y
 apt install nodejs -y
 apt install ffmpeg -y
 apt install imagemagick -y
-git clone https://github.com/Axel-bytu/Batrol
-cd Batrol
+git clone https://github.com/Team-bytu/Nani
+cd Nani
 npm install
 ```
 
@@ -61,8 +61,8 @@ npm install
 * Download And Install ImageMagick [`Click Here`](https://imagemagick.org/script/download.php)
 
 ```bash
-git clone https://github.com/Axel-bytu/Batrol
-cd Batrol
+git clone https://github.com/Team-bytu/Nani
+cd Nani
 npm install
 ```
 
@@ -132,3 +132,5 @@ conn.logger.level = 'debug'
 #### Author / Base : [`SafwanGanz`](https://github.com/SafwanGanz)
 
 #### Author / creador : [`Axel-bytu`](https://github.com/Axel-bytu)
+
+#### Colaborador : [`Team-bytu`](https://github.com/Team-bytu)
