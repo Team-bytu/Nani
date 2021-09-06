@@ -26,13 +26,13 @@ let pp = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gam
 éxito en la verificación!!
 
 ┍ *_「 Verificación 」_*
-│ ☞ *Nombre* : ${name}
-│ ☞ *Edad* : ${age} Años de edad
-│ ☞ *SN* : 
+│ ꨄ︎ *Nombre* : ${name}
+│ ꨄ︎ *Edad* : ${age} Años de edad
+│ ꨄ︎ *SN* : 
 │ ${sn}
 │  ▎▍▌▌▉▏▎▌▉▐▏▌▎▏
 │  ▎▍▌▌▉▏▎▌▉▐▏▌▎▏
-│   Toxic Batrol  ©2021
+│   Toxic Nani  ©2021
 ┕━━━━━━━━━━━━━━━━━
 `.trim()
 conn.sendFile(m.chat, pp, 'pp.jpg', verif, m, false)
