@@ -9,12 +9,12 @@ let handler  = async (m, { conn, args, usedPrefix, command }) => {
 		throw `
 *ғᴏʀᴍᴀᴛ ᴡʀᴏɴɢ! ᴇxᴀᴍᴘʟᴇ :*
 
-  *○ ${usedPrefix + command} close*
-  *○ ${usedPrefix + command} open*
+  *○ ${usedPrefix + command} off*
+  *○ ${usedPrefix + command} on*
 `.trim()
 	await conn.groupSettingChange(m.chat, GroupSettingChange.messageSend, isClose)
 }
-handler.help = ['group *open / close*']
+handler.help = ['group *on / off*']
 handler.tags = ['group']
 handler.command = /^(group)$/i
 handler.owner = false
