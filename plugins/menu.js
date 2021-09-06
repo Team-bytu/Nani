@@ -42,10 +42,9 @@ const defaultMenu = {
 ┃%emos *Hora* : \`\`\`%time\`\`\`
 ┃%emos *Timpo activo* : \`\`\`%uptime (%muptime)\`\`\`
 ┃%emos *Registro* : \`\`\`%rtotalreg of %totalreg\`\`\`
-┃%emos
-┃%emos     ▎▍▌▌▉▏▎▌▉▐▏▌▎
-┃%emos     ▎▍▌▌▉▏▎▌▉▐▏▌▎
-┃%emos  \`\`\`Toxic Batrol ©2021\`\`\`
+┃%emos      ▎▍▌▌▉▏▎▌▉▐▏▌▎
+┃%emos      ▎▍▌▌▉▏▎▌▉▐▏▌▎
+┃%emos  \`\`\`Toxic Nani ©2021\`\`\`
 ╰════════════════⊷❍➣
 
 %readmore`.trimStart(),
@@ -58,7 +57,7 @@ ${'```%npmdesc```'}
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p }) => {
-  conn.fakeReply(m.chat,  '*ESPERA⏳...*', '0@s.whatsapp.net', '*🌀Batrol🌀*')
+  conn.fakeReply(m.chat,  '*ESPERA⏳...*', '0@s.whatsapp.net', '*🌀Nani🌀*')
  try {
     let package = JSON.parse(await fs.promises.readFile(path.join(__dirname, '../package.json')).catch(_ => '{}'))
     let { exp, limit, level, role } = global.DATABASE.data.users[m.sender]
@@ -73,7 +72,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
     function pickRandom(list) {
   return list[Math.floor(list.length * Math.random())]
 }
-  let emos = ['✰', '✧', '✑', '✘', '✩'][Math.floor(d / 84600000) % 5]
+  let emos = ['✰', '✧', '✞︎', '❥︎', 'ꨄ︎'][Math.floor(d / 84600000) % 5]
     let week = d.toLocaleDateString(locale, { weekday: 'long' })
     let date = d.toLocaleDateString(locale, {
       day: 'numeric',
@@ -156,7 +155,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    conn.sendFile(m.chat, 'media/broz.jpg', '', text.trim(), m)
+    conn.sendFile(m.chat, 'media/nani.jpg', '', text.trim(), m)
 
   } catch (e) {
     conn.reply(m.chat, 'algo error', m)
