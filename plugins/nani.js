@@ -11,7 +11,7 @@ let handler  = async (m, { conn, args, usedPrefix, command }) => {
   conn.reply(m.chat, `${batch.success}`, m)
   }) .catch(() => { conn.reply(m.chat, `_¡La función nani está desabilitada!_`, m) })
 }
-handler.help = ['mami'].map(v => v + ' *texto*')
+handler.help = ['.nani'].map(v => v + ' *texto*')
 handler.tags = ['fun']
 handler.command = /^(nani)$/i
 handler.owner = false
