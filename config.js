@@ -18,7 +18,7 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = 'Batrol'
+global.packname = '𝑵𝒂𝒏𝒊'
 global.author = 'Axel/Toxic'
 
 global.multiplier = 69 // The higher, The harder levelup
