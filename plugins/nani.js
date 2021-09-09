@@ -2,7 +2,7 @@ let { Presence } = require('@adiwajshing/baileys')
 let fetch = require('node-fetch')
 
 let handler  = async (m, { conn, args, usedPrefix, command }) => {
-  if (!args || !args[0]) return conn.sendFile(m.chat, '', '', '', m)
+  if (!args || !args[0]) return conn.sendFile(m.chat, '', '', 'XD', m)
 	let text = args.join` `
 	fetch("https://api.simsimi.net/v1/?text=" + encodeURIComponent(text) + "&lang=es")
   .then(res => res.json())
@@ -11,7 +11,7 @@ let handler  = async (m, { conn, args, usedPrefix, command }) => {
   conn.reply(m.chat, `${batch.success}`, m)
   }) .catch(() => { conn.reply(m.chat, `_¡La función nani está desabilitada!_`, m) })
 }
-handler.help = ['.nani'].map(v => v + ' *texto*')
+handler.help = ['nani'].map(v => v + ' *texto*')
 handler.tags = ['fun']
 handler.command = /^(nani)$/i
 handler.owner = false
