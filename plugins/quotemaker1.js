@@ -7,9 +7,9 @@ let d = new Date
   let tgl = d.toLocaleDateString('id-Id')
   let hari = d.toLocaleDateString('id-Id', { weekday: 'long' })
  let [teks, wm] = text.split('|')
-await conn.sendFile(m.chat, global.API('xteam', '/quotemaker', { text, wm: conn.getName(m.sender) }, 'APIKEY'), 'nulis.jpg', '✨𝑩𝒂𝒕𝒓𝒐𝒍✨', m)
+await conn.sendFile(m.chat, global.API('xteam', '/quotemaker', { text, wm: conn.getName(m.sender) }, 'APIKEY'), 'nulis.jpg', '🌀𝑵𝒂𝒏𝒊🌀', m)
 }
-handler.help = ['q'].map(v => v + 'm *texto|nombre*')
+handler.help = ['quote'].map(v => v + 'm *texto|nombre*')
 handler.tags = ['tools']
 handler.command = /^qm$/i
 handler.owner = false
